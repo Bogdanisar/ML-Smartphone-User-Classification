@@ -1,0 +1,4 @@
+increase = 5, 46%, primele 100, 3 neighbours, euclid
+
+increase = 1 no trim, splitNum = 440, all validation tests, 3 neighbours, euclid => 58% (really long)
+increase = 1 no trim, splitNum = 448, all validation tests, 3 neighbours, euclid =>  (10 minutes)
