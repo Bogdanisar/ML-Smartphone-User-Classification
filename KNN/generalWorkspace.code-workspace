@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": "General"
+		}
+	],
+	"settings": {
+		"files.associations": {
+			"iostream": "cpp",
+			"type_traits": "cpp"
+		}
+	}
+}
