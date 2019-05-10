@@ -6,211 +6,782 @@ increase = 1 no trim, splitNum = 448, all validation tests, 3 neighbours, euclid
 increase = 1 no trim, splitNum = 448, all validation tests, 3 neighbours, euclid => 60% (15 minutes)
 
 svm, svc
-	linear (with splitNum):
-	accuracy of validation =  0.8277777777777777  where splitNum = 405
-	C, kernel = 1.0, linear
+	MIN_MAX_NORMALIZATION
+		linear (with splitNum):
+		accuracy of validation =  0.8277777777777777  where splitNum = 405
+		C, kernel = 1.0, linear
 
-	accuracy of validation =  0.826  where splitNum = 425
-	C, kernel = 1.0 ,  linear
+		accuracy of validation =  0.826  where splitNum = 425
+		C, kernel = 1.0 ,  linear
 
-	accuracy of validation =  0.826  where splitNum = 360
-	C, kernel = 1.0 ,  linear
-
-
-	rbf (with splitNum):
-	accuracy of validation =  0.6044444444444445  where splitNum = 405
-	C, kernel = 1.0, rbf
-
-	accuracy of validation =  0.606  where splitNum = 425
-	C, kernel = 1.0 ,  rbf
-
-	accuracy of validation =  0.6322222222222222  where splitNum = 405
-	C, kernel = 1e-08 ,  rbf, gamma = 'scale'
-	accuracy of validation =  0.49  where splitNum = 405
-	C, kernel = 1e-08 ,  rbf, gamma = 'auto'
-	accuracy of validation =  0.4855555555555556  where splitNum = 405
-	C, kernel = 1e-08 ,  rbf, gamma = 1e-5
-	accuracy of validation =  0.6177777777777778  where splitNum = 405
-	C, kernel = 1e-08 ,  rbf, gamma = 1e-1
-	accuracy of validation =  0.06777777777777778  where splitNum = 405
-	C, kernel = 1e-08 ,  rbf, gamma = 10
-
-	accuracy of validation =  0.6333333333333333  where splitNum = 405
-	C = 0.01, kernel = rbf, gamma = scale
-	accuracy of validation =  0.49  where splitNum = 405
-	C = 0.01, kernel = rbf, gamma = auto
-	accuracy of validation =  0.3888888888888889  where splitNum = 405
-	C = 0.01, kernel = rbf, gamma = 1e-09
-	accuracy of validation =  0.4855555555555556  where splitNum = 405
-	C = 0.01, kernel = rbf, gamma = 1e-05
-	accuracy of validation =  0.62  where splitNum = 405
-	C = 0.01, kernel = rbf, gamma = 0.1
-	accuracy of validation =  0.20222222222222222  where splitNum = 405
-	C = 0.01, kernel = rbf, gamma = 1000.0
-	accuracy of validation =  0.9388888888888889  where splitNum = 405
-	C = 100.0, kernel = rbf, gamma = scale
-	accuracy of validation =  0.8277777777777777  where splitNum = 405
-	C = 100.0, kernel = rbf, gamma = auto
-	accuracy of validation =  0.3888888888888889  where splitNum = 405
-	C = 100.0, kernel = rbf, gamma = 1e-09
-	accuracy of validation =  0.5477777777777778  where splitNum = 405
-	C = 100.0, kernel = rbf, gamma = 1e-05
-	accuracy of validation =  0.9433333333333334  where splitNum = 405
-	C = 100.0, kernel = rbf, gamma = 0.1
-	accuracy of validation =  0.09222222222222222  where splitNum = 405
-	C = 100.0, kernel = rbf, gamma = 1000.0
-	accuracy of validation =  0.9388888888888889  where splitNum = 405
-	C = 1000000.0, kernel = rbf, gamma = scale
-	accuracy of validation =  0.8533333333333334  where splitNum = 405
-	C = 1000000.0, kernel = rbf, gamma = auto
-	accuracy of validation =  0.42  where splitNum = 405
-	C = 1000000.0, kernel = rbf, gamma = 1e-09
-	accuracy of validation =  0.82  where splitNum = 405
-	C = 1000000.0, kernel = rbf, gamma = 1e-05
-	accuracy of validation =  0.9433333333333334  where splitNum = 405
-	C = 1000000.0, kernel = rbf, gamma = 0.1
-	accuracy of validation =  0.09222222222222222  where splitNum = 405
-	C = 1000000.0, kernel = rbf, gamma = 1000.0
-	accuracy of validation =  0.9388888888888889  where splitNum = 405
-	C = 10000000000.0, kernel = rbf, gamma = scale
-	accuracy of validation =  0.8533333333333334  where splitNum = 405
-	C = 10000000000.0, kernel = rbf, gamma = auto
-	accuracy of validation =  0.4077777777777778  where splitNum = 405
-	C = 10000000000.0, kernel = rbf, gamma = 1e-09
-	accuracy of validation =  0.8011111111111111  where splitNum = 405
-	C = 10000000000.0, kernel = rbf, gamma = 1e-05
-	accuracy of validation =  0.9433333333333334  where splitNum = 405
-	C = 10000000000.0, kernel = rbf, gamma = 0.1
-	accuracy of validation =  0.09222222222222222  where splitNum = 405
-	C = 10000000000.0, kernel = rbf, gamma = 1000.0
-	accuracy of validation =  0.6333333333333333  where splitNum = 405
-
-	C = 0.01, kernel = rbf, gamma = scale
-	accuracy of validation =  0.49  where splitNum = 405
-	C = 0.01, kernel = rbf, gamma = auto
-	accuracy of validation =  0.4855555555555556  where splitNum = 405
-	C = 0.01, kernel = rbf, gamma = 1e-06
-	accuracy of validation =  0.4855555555555556  where splitNum = 405
-	C = 0.01, kernel = rbf, gamma = 1e-05
-	accuracy of validation =  0.4855555555555556  where splitNum = 405
-	C = 0.01, kernel = rbf, gamma = 0.0001
-	accuracy of validation =  0.4888888888888889  where splitNum = 405
-	C = 0.01, kernel = rbf, gamma = 0.001
-	accuracy of validation =  0.51  where splitNum = 405
-	C = 0.01, kernel = rbf, gamma = 0.01
-	accuracy of validation =  0.62  where splitNum = 405
-	C = 0.01, kernel = rbf, gamma = 0.1
-	accuracy of validation =  0.3488888888888889  where splitNum = 405
-	C = 0.01, kernel = rbf, gamma = 1.0
-	accuracy of validation =  0.06777777777777778  where splitNum = 405
-	C = 0.01, kernel = rbf, gamma = 10.0
-	accuracy of validation =  0.051111111111111114  where splitNum = 405
-	C = 0.01, kernel = rbf, gamma = 100.0
-	accuracy of validation =  0.20222222222222222  where splitNum = 405
-	C = 0.01, kernel = rbf, gamma = 1000.0
-	accuracy of validation =  0.8788888888888889  where splitNum = 405
-	C = 1.0, kernel = rbf, gamma = scale
-	accuracy of validation =  0.6044444444444445  where splitNum = 405
-	C = 1.0, kernel = rbf, gamma = auto
-	accuracy of validation =  0.4855555555555556  where splitNum = 405
-	C = 1.0, kernel = rbf, gamma = 1e-06
-	accuracy of validation =  0.4855555555555556  where splitNum = 405
-	C = 1.0, kernel = rbf, gamma = 1e-05
-	accuracy of validation =  0.4855555555555556  where splitNum = 405
-	C = 1.0, kernel = rbf, gamma = 0.0001
-	accuracy of validation =  0.55  where splitNum = 405
-	C = 1.0, kernel = rbf, gamma = 0.001
-	accuracy of validation =  0.6944444444444444  where splitNum = 405
-	C = 1.0, kernel = rbf, gamma = 0.01
-	accuracy of validation =  0.8677777777777778  where splitNum = 405
-	C = 1.0, kernel = rbf, gamma = 0.1
-	accuracy of validation =  0.8733333333333333  where splitNum = 405
-	C = 1.0, kernel = rbf, gamma = 1.0
-	accuracy of validation =  0.20444444444444446  where splitNum = 405
-	C = 1.0, kernel = rbf, gamma = 10.0
-	accuracy of validation =  0.057777777777777775  where splitNum = 405
-	C = 1.0, kernel = rbf, gamma = 100.0
-	accuracy of validation =  0.09222222222222222  where splitNum = 405
-	C = 1.0, kernel = rbf, gamma = 1000.0
-	accuracy of validation =  0.9355555555555556  where splitNum = 405
-	C = 10, kernel = rbf, gamma = scale
+		accuracy of validation =  0.826  where splitNum = 360
+		C, kernel = 1.0 ,  linear
 
 
-	================================= SPLITMOD ========================================================
-	accuracy of validation =  0.8822222222222222  where splitMod = 10
-	C = 1.0, kernel = rbf, gamma = scale
-	accuracy of validation =  0.6255555555555555  where splitMod = 10
-	C = 1.0, kernel = rbf, gamma = auto
-	accuracy of validation =  0.5144444444444445  where splitMod = 10
-	C = 1.0, kernel = rbf, gamma = 1e-06
-	accuracy of validation =  0.5144444444444445  where splitMod = 10
-	C = 1.0, kernel = rbf, gamma = 1e-05
-	accuracy of validation =  0.5144444444444445  where splitMod = 10
-	C = 1.0, kernel = rbf, gamma = 0.0001
-	accuracy of validation =  0.5688888888888889  where splitMod = 10
-	C = 1.0, kernel = rbf, gamma = 0.001
-	accuracy of validation =  0.7055555555555556  where splitMod = 10
-	C = 1.0, kernel = rbf, gamma = 0.01
-	accuracy of validation =  0.8677777777777778  where splitMod = 10
-	C = 1.0, kernel = rbf, gamma = 0.1
-	accuracy of validation =  0.8677777777777778  where splitMod = 10
-	C = 1.0, kernel = rbf, gamma = 1.0
-	accuracy of validation =  0.18333333333333332  where splitMod = 10
-	C = 1.0, kernel = rbf, gamma = 10.0
-	accuracy of validation =  0.058888888888888886  where splitMod = 10
-	C = 1.0, kernel = rbf, gamma = 100.0
-	accuracy of validation =  0.08777777777777777  where splitMod = 10
-	C = 1.0, kernel = rbf, gamma = 1000.0
+		
+		================================= SPLITMOD ========================================================	
+		accuracy of validation =  0.5144444444444445  where splitMod = 10
+		C = 0.0001, kernel = linear
+		accuracy of validation =  0.5977777777777777  where splitMod = 10
+		C = 0.003593813663804626, kernel = linear
+		accuracy of validation =  0.7855555555555556  where splitMod = 10
+		C = 0.1291549665014884, kernel = linear
+		accuracy of validation =  0.8188888888888889  where splitMod = 10
+		C = 4.641588833612782, kernel = linear
+		accuracy of validation =  0.7877777777777778  where splitMod = 10
+		C = 166.81005372000593, kernel = linear
+		accuracy of validation =  0.7822222222222223  where splitMod = 10
+		C = 5994.8425031894085, kernel = linear
+		accuracy of validation =  0.7833333333333333  where splitMod = 10
+		C = 215443.46900318866, kernel = linear
+		accuracy of validation =  0.7833333333333333  where splitMod = 10
+		C = 7742636.826811277, kernel = linear
+		accuracy of validation =  0.7833333333333333  where splitMod = 10
+		C = 278255940.2207126, kernel = linear
+		accuracy of validation =  0.7833333333333333  where splitMod = 10
+		C = 10000000000.0, kernel = linear
 
-	accuracy of validation =  0.7388888888888889  where splitNum = 405
-	C = 0.1, kernel = rbf, gamma = scale
-	accuracy of validation =  0.48777777777777775  where splitNum = 405
-	C = 0.1, kernel = rbf, gamma = auto
-	accuracy of validation =  0.4855555555555556  where splitNum = 405
-	C = 0.1, kernel = rbf, gamma = 1e-06
-	accuracy of validation =  0.4855555555555556  where splitNum = 405
-	C = 0.1, kernel = rbf, gamma = 1e-05
-	accuracy of validation =  0.4855555555555556  where splitNum = 405
-	C = 0.1, kernel = rbf, gamma = 0.0001
-	accuracy of validation =  0.4888888888888889  where splitNum = 405
-	C = 0.1, kernel = rbf, gamma = 0.001
-	accuracy of validation =  0.5488888888888889  where splitNum = 405
-	C = 0.1, kernel = rbf, gamma = 0.01
-	accuracy of validation =  0.7333333333333333  where splitNum = 405
-	C = 0.1, kernel = rbf, gamma = 0.1
-	accuracy of validation =  0.5144444444444445  where splitNum = 405
-	C = 0.1, kernel = rbf, gamma = 1.0
-	accuracy of validation =  0.06777777777777778  where splitNum = 405
-	C = 0.1, kernel = rbf, gamma = 10.0
-	accuracy of validation =  0.051111111111111114  where splitNum = 405
-	C = 0.1, kernel = rbf, gamma = 100.0
-	accuracy of validation =  0.20333333333333334  where splitNum = 405
-	C = 0.1, kernel = rbf, gamma = 1000.0
-	accuracy of validation =  0.9355555555555556  where splitNum = 405
-	C = 10, kernel = rbf, gamma = scale
-	accuracy of validation =  0.7355555555555555  where splitNum = 405
-	C = 10, kernel = rbf, gamma = auto
-	accuracy of validation =  0.4855555555555556  where splitNum = 405
-	C = 10, kernel = rbf, gamma = 1e-06
-	accuracy of validation =  0.4855555555555556  where splitNum = 405
-	C = 10, kernel = rbf, gamma = 1e-05
-	accuracy of validation =  0.5477777777777778  where splitNum = 405
-	C = 10, kernel = rbf, gamma = 0.0001
-	accuracy of validation =  0.6866666666666666  where splitNum = 405
-	C = 10, kernel = rbf, gamma = 0.001
-	accuracy of validation =  0.8188888888888889  where splitNum = 405
-	C = 10, kernel = rbf, gamma = 0.01
-	accuracy of validation =  0.9344444444444444  where splitNum = 405
-	C = 10, kernel = rbf, gamma = 0.1
-	accuracy of validation =  0.8877777777777778  where splitNum = 405
-	C = 10, kernel = rbf, gamma = 1.0
-	accuracy of validation =  0.22555555555555556  where splitNum = 405
-	C = 10, kernel = rbf, gamma = 10.0
-	accuracy of validation =  0.06222222222222222  where splitNum = 405
-	C = 10, kernel = rbf, gamma = 100.0
-	accuracy of validation =  0.09222222222222222  where splitNum = 405
-	C = 10, kernel = rbf, gamma = 1000.0
+		accuracy of validation =  0.5144444444444445  where splitMod = 10
+		C = 0.0001, kernel = linear
+		accuracy of validation =  0.8155555555555556  where splitMod = 10
+		C = 5.263252631578947, kernel = linear
+		accuracy of validation =  0.8066666666666666  where splitMod = 10
+		C = 10.526405263157894, kernel = linear
+		accuracy of validation =  0.8044444444444444  where splitMod = 10
+		C = 15.789557894736841, kernel = linear
+		accuracy of validation =  0.8011111111111111  where splitMod = 10
+		C = 21.05271052631579, kernel = linear
+		accuracy of validation =  0.7977777777777778  where splitMod = 10
+		C = 26.315863157894736, kernel = linear
+		accuracy of validation =  0.7966666666666666  where splitMod = 10
+		C = 31.579015789473683, kernel = linear
+		accuracy of validation =  0.7977777777777778  where splitMod = 10
+		C = 36.842168421052634, kernel = linear
+		accuracy of validation =  0.7977777777777778  where splitMod = 10
+		C = 42.10532105263158, kernel = linear
+		accuracy of validation =  0.7966666666666666  where splitMod = 10
+		C = 47.36847368421053, kernel = linear
+		accuracy of validation =  0.7944444444444444  where splitMod = 10
+		C = 52.631626315789475, kernel = linear
+		accuracy of validation =  0.7922222222222223  where splitMod = 10
+		C = 57.89477894736842, kernel = linear
+		accuracy of validation =  0.7922222222222223  where splitMod = 10
+		C = 63.15793157894737, kernel = linear
+		accuracy of validation =  0.7922222222222223  where splitMod = 10
+		C = 68.42108421052632, kernel = linear
+		accuracy of validation =  0.7922222222222223  where splitMod = 10
+		C = 73.68423684210526, kernel = linear
+		accuracy of validation =  0.7911111111111111  where splitMod = 10
+		C = 78.94738947368421, kernel = linear
+		accuracy of validation =  0.7911111111111111  where splitMod = 10
+		C = 84.21054210526316, kernel = linear
+		accuracy of validation =  0.7911111111111111  where splitMod = 10
+		C = 89.4736947368421, kernel = linear
+		accuracy of validation =  0.7911111111111111  where splitMod = 10
+		C = 94.73684736842105, kernel = linear
+		accuracy of validation =  0.7911111111111111  where splitMod = 10
 
-	~ 2 min per verificare
 
-	rbf (wit)
+
+
+
+
+
+
+		rbf (with splitNum):
+		accuracy of validation =  0.6044444444444445  where splitNum = 405
+		C, kernel = 1.0, rbf
+
+		accuracy of validation =  0.606  where splitNum = 425
+		C, kernel = 1.0 ,  rbf
+
+		accuracy of validation =  0.6322222222222222  where splitNum = 405
+		C, kernel = 1e-08 ,  rbf, gamma = 'scale'
+		accuracy of validation =  0.49  where splitNum = 405
+		C, kernel = 1e-08 ,  rbf, gamma = 'auto'
+		accuracy of validation =  0.4855555555555556  where splitNum = 405
+		C, kernel = 1e-08 ,  rbf, gamma = 1e-5
+		accuracy of validation =  0.6177777777777778  where splitNum = 405
+		C, kernel = 1e-08 ,  rbf, gamma = 1e-1
+		accuracy of validation =  0.06777777777777778  where splitNum = 405
+		C, kernel = 1e-08 ,  rbf, gamma = 10
+
+		accuracy of validation =  0.6333333333333333  where splitNum = 405
+		C = 0.01, kernel = rbf, gamma = scale
+		accuracy of validation =  0.49  where splitNum = 405
+		C = 0.01, kernel = rbf, gamma = auto
+		accuracy of validation =  0.3888888888888889  where splitNum = 405
+		C = 0.01, kernel = rbf, gamma = 1e-09
+		accuracy of validation =  0.4855555555555556  where splitNum = 405
+		C = 0.01, kernel = rbf, gamma = 1e-05
+		accuracy of validation =  0.62  where splitNum = 405
+		C = 0.01, kernel = rbf, gamma = 0.1
+		accuracy of validation =  0.20222222222222222  where splitNum = 405
+		C = 0.01, kernel = rbf, gamma = 1000.0
+		accuracy of validation =  0.9388888888888889  where splitNum = 405
+		C = 100.0, kernel = rbf, gamma = scale
+		accuracy of validation =  0.8277777777777777  where splitNum = 405
+		C = 100.0, kernel = rbf, gamma = auto
+		accuracy of validation =  0.3888888888888889  where splitNum = 405
+		C = 100.0, kernel = rbf, gamma = 1e-09
+		accuracy of validation =  0.5477777777777778  where splitNum = 405
+		C = 100.0, kernel = rbf, gamma = 1e-05
+		accuracy of validation =  0.9433333333333334  where splitNum = 405
+		C = 100.0, kernel = rbf, gamma = 0.1
+		accuracy of validation =  0.09222222222222222  where splitNum = 405
+		C = 100.0, kernel = rbf, gamma = 1000.0
+		accuracy of validation =  0.9388888888888889  where splitNum = 405
+		C = 1000000.0, kernel = rbf, gamma = scale
+		accuracy of validation =  0.8533333333333334  where splitNum = 405
+		C = 1000000.0, kernel = rbf, gamma = auto
+		accuracy of validation =  0.42  where splitNum = 405
+		C = 1000000.0, kernel = rbf, gamma = 1e-09
+		accuracy of validation =  0.82  where splitNum = 405
+		C = 1000000.0, kernel = rbf, gamma = 1e-05
+		accuracy of validation =  0.9433333333333334  where splitNum = 405
+		C = 1000000.0, kernel = rbf, gamma = 0.1
+		accuracy of validation =  0.09222222222222222  where splitNum = 405
+		C = 1000000.0, kernel = rbf, gamma = 1000.0
+		accuracy of validation =  0.9388888888888889  where splitNum = 405
+		C = 10000000000.0, kernel = rbf, gamma = scale
+		accuracy of validation =  0.8533333333333334  where splitNum = 405
+		C = 10000000000.0, kernel = rbf, gamma = auto
+		accuracy of validation =  0.4077777777777778  where splitNum = 405
+		C = 10000000000.0, kernel = rbf, gamma = 1e-09
+		accuracy of validation =  0.8011111111111111  where splitNum = 405
+		C = 10000000000.0, kernel = rbf, gamma = 1e-05
+		accuracy of validation =  0.9433333333333334  where splitNum = 405
+		C = 10000000000.0, kernel = rbf, gamma = 0.1
+		accuracy of validation =  0.09222222222222222  where splitNum = 405
+		C = 10000000000.0, kernel = rbf, gamma = 1000.0
+		accuracy of validation =  0.6333333333333333  where splitNum = 405
+
+		C = 0.01, kernel = rbf, gamma = scale
+		accuracy of validation =  0.49  where splitNum = 405
+		C = 0.01, kernel = rbf, gamma = auto
+		accuracy of validation =  0.4855555555555556  where splitNum = 405
+		C = 0.01, kernel = rbf, gamma = 1e-06
+		accuracy of validation =  0.4855555555555556  where splitNum = 405
+		C = 0.01, kernel = rbf, gamma = 1e-05
+		accuracy of validation =  0.4855555555555556  where splitNum = 405
+		C = 0.01, kernel = rbf, gamma = 0.0001
+		accuracy of validation =  0.4888888888888889  where splitNum = 405
+		C = 0.01, kernel = rbf, gamma = 0.001
+		accuracy of validation =  0.51  where splitNum = 405
+		C = 0.01, kernel = rbf, gamma = 0.01
+		accuracy of validation =  0.62  where splitNum = 405
+		C = 0.01, kernel = rbf, gamma = 0.1
+		accuracy of validation =  0.3488888888888889  where splitNum = 405
+		C = 0.01, kernel = rbf, gamma = 1.0
+		accuracy of validation =  0.06777777777777778  where splitNum = 405
+		C = 0.01, kernel = rbf, gamma = 10.0
+		accuracy of validation =  0.051111111111111114  where splitNum = 405
+		C = 0.01, kernel = rbf, gamma = 100.0
+		accuracy of validation =  0.20222222222222222  where splitNum = 405
+		C = 0.01, kernel = rbf, gamma = 1000.0
+		accuracy of validation =  0.8788888888888889  where splitNum = 405
+		C = 1.0, kernel = rbf, gamma = scale
+		accuracy of validation =  0.6044444444444445  where splitNum = 405
+		C = 1.0, kernel = rbf, gamma = auto
+		accuracy of validation =  0.4855555555555556  where splitNum = 405
+		C = 1.0, kernel = rbf, gamma = 1e-06
+		accuracy of validation =  0.4855555555555556  where splitNum = 405
+		C = 1.0, kernel = rbf, gamma = 1e-05
+		accuracy of validation =  0.4855555555555556  where splitNum = 405
+		C = 1.0, kernel = rbf, gamma = 0.0001
+		accuracy of validation =  0.55  where splitNum = 405
+		C = 1.0, kernel = rbf, gamma = 0.001
+		accuracy of validation =  0.6944444444444444  where splitNum = 405
+		C = 1.0, kernel = rbf, gamma = 0.01
+		accuracy of validation =  0.8677777777777778  where splitNum = 405
+		C = 1.0, kernel = rbf, gamma = 0.1
+		accuracy of validation =  0.8733333333333333  where splitNum = 405
+		C = 1.0, kernel = rbf, gamma = 1.0
+		accuracy of validation =  0.20444444444444446  where splitNum = 405
+		C = 1.0, kernel = rbf, gamma = 10.0
+		accuracy of validation =  0.057777777777777775  where splitNum = 405
+		C = 1.0, kernel = rbf, gamma = 100.0
+		accuracy of validation =  0.09222222222222222  where splitNum = 405
+		C = 1.0, kernel = rbf, gamma = 1000.0
+		accuracy of validation =  0.9355555555555556  where splitNum = 405
+		C = 10, kernel = rbf, gamma = scale
+
+
+		================================= SPLITMOD ========================================================
+		accuracy of validation =  0.8822222222222222  where splitMod = 10
+		C = 1.0, kernel = rbf, gamma = scale
+		accuracy of validation =  0.6255555555555555  where splitMod = 10
+		C = 1.0, kernel = rbf, gamma = auto
+		accuracy of validation =  0.5144444444444445  where splitMod = 10
+		C = 1.0, kernel = rbf, gamma = 1e-06
+		accuracy of validation =  0.5144444444444445  where splitMod = 10
+		C = 1.0, kernel = rbf, gamma = 1e-05
+		accuracy of validation =  0.5144444444444445  where splitMod = 10
+		C = 1.0, kernel = rbf, gamma = 0.0001
+		accuracy of validation =  0.5688888888888889  where splitMod = 10
+		C = 1.0, kernel = rbf, gamma = 0.001
+		accuracy of validation =  0.7055555555555556  where splitMod = 10
+		C = 1.0, kernel = rbf, gamma = 0.01
+		accuracy of validation =  0.8677777777777778  where splitMod = 10
+		C = 1.0, kernel = rbf, gamma = 0.1
+		accuracy of validation =  0.8677777777777778  where splitMod = 10
+		C = 1.0, kernel = rbf, gamma = 1.0
+		accuracy of validation =  0.18333333333333332  where splitMod = 10
+		C = 1.0, kernel = rbf, gamma = 10.0
+		accuracy of validation =  0.058888888888888886  where splitMod = 10
+		C = 1.0, kernel = rbf, gamma = 100.0
+		accuracy of validation =  0.08777777777777777  where splitMod = 10
+		C = 1.0, kernel = rbf, gamma = 1000.0
+
+		accuracy of validation =  0.7388888888888889  where splitNum = 405
+		C = 0.1, kernel = rbf, gamma = scale
+		accuracy of validation =  0.48777777777777775  where splitNum = 405
+		C = 0.1, kernel = rbf, gamma = auto
+		accuracy of validation =  0.4855555555555556  where splitNum = 405
+		C = 0.1, kernel = rbf, gamma = 1e-06
+		accuracy of validation =  0.4855555555555556  where splitNum = 405
+		C = 0.1, kernel = rbf, gamma = 1e-05
+		accuracy of validation =  0.4855555555555556  where splitNum = 405
+		C = 0.1, kernel = rbf, gamma = 0.0001
+		accuracy of validation =  0.4888888888888889  where splitNum = 405
+		C = 0.1, kernel = rbf, gamma = 0.001
+		accuracy of validation =  0.5488888888888889  where splitNum = 405
+		C = 0.1, kernel = rbf, gamma = 0.01
+		accuracy of validation =  0.7333333333333333  where splitNum = 405
+		C = 0.1, kernel = rbf, gamma = 0.1
+		accuracy of validation =  0.5144444444444445  where splitNum = 405
+		C = 0.1, kernel = rbf, gamma = 1.0
+		accuracy of validation =  0.06777777777777778  where splitNum = 405
+		C = 0.1, kernel = rbf, gamma = 10.0
+		accuracy of validation =  0.051111111111111114  where splitNum = 405
+		C = 0.1, kernel = rbf, gamma = 100.0
+		accuracy of validation =  0.20333333333333334  where splitNum = 405
+		C = 0.1, kernel = rbf, gamma = 1000.0
+		accuracy of validation =  0.9355555555555556  where splitNum = 405
+		C = 10, kernel = rbf, gamma = scale
+		accuracy of validation =  0.7355555555555555  where splitNum = 405
+		C = 10, kernel = rbf, gamma = auto
+		accuracy of validation =  0.4855555555555556  where splitNum = 405
+		C = 10, kernel = rbf, gamma = 1e-06
+		accuracy of validation =  0.4855555555555556  where splitNum = 405
+		C = 10, kernel = rbf, gamma = 1e-05
+		accuracy of validation =  0.5477777777777778  where splitNum = 405
+		C = 10, kernel = rbf, gamma = 0.0001
+		accuracy of validation =  0.6866666666666666  where splitNum = 405
+		C = 10, kernel = rbf, gamma = 0.001
+		accuracy of validation =  0.8188888888888889  where splitNum = 405
+		C = 10, kernel = rbf, gamma = 0.01
+		accuracy of validation =  0.9344444444444444  where splitNum = 405
+		C = 10, kernel = rbf, gamma = 0.1
+		accuracy of validation =  0.8877777777777778  where splitNum = 405
+		C = 10, kernel = rbf, gamma = 1.0
+		accuracy of validation =  0.22555555555555556  where splitNum = 405
+		C = 10, kernel = rbf, gamma = 10.0
+		accuracy of validation =  0.06222222222222222  where splitNum = 405
+		C = 10, kernel = rbf, gamma = 100.0
+		accuracy of validation =  0.09222222222222222  where splitNum = 405
+		C = 10, kernel = rbf, gamma = 1000.0
+
+		~ 2 min per verificare
+
+		rbf (wit)
+
+	VECTOR_NORMALIZATION:
+		LINEAR KERNEL:
+			accuracy of validation =  0.39  where splitMod = 10
+			C = 1e-05, kernel = linear
+			accuracy of validation =  0.43  where splitMod = 10
+			C = 0.5263252631578947, kernel = linear
+			accuracy of validation =  0.44333333333333336  where splitMod = 10
+			C = 1.0, kernel = linear
+			accuracy of validation =  0.44666666666666666  where splitMod = 10
+			C = 1.0526405263157896, kernel = linear
+			accuracy of validation =  0.4488888888888889  where splitMod = 10
+			C = 1.5789557894736843, kernel = linear
+			accuracy of validation =  0.4533333333333333  where splitMod = 10
+			C = 2.105271052631579, kernel = linear
+			accuracy of validation =  0.4588888888888889  where splitMod = 10
+			C = 2.631586315789474, kernel = linear
+			accuracy of validation =  0.4588888888888889  where splitMod = 10
+			C = 3.1579015789473686, kernel = linear
+			accuracy of validation =  0.4633333333333333  where splitMod = 10
+			C = 3.6842168421052635, kernel = linear
+			accuracy of validation =  0.4622222222222222  where splitMod = 10
+			C = 4.210532105263158, kernel = linear
+			accuracy of validation =  0.4711111111111111  where splitMod = 10
+			C = 4.736847368421053, kernel = linear
+			accuracy of validation =  0.47888888888888886  where splitMod = 10
+			C = 5.263162631578948, kernel = linear
+			accuracy of validation =  0.4777777777777778  where splitMod = 10
+			C = 5.789477894736843, kernel = linear
+			accuracy of validation =  0.4855555555555556  where splitMod = 10
+			C = 6.315793157894737, kernel = linear
+			accuracy of validation =  0.48777777777777775  where splitMod = 10
+			C = 6.8421084210526315, kernel = linear
+			accuracy of validation =  0.49  where splitMod = 10
+			C = 7.368423684210526, kernel = linear
+
+			accuracy of validation =  0.39  where splitMod = 10
+			C = 1e-05, kernel = linear
+			accuracy of validation =  0.5655555555555556  where splitMod = 10
+			C = 5263.157904210526, kernel = linear
+			accuracy of validation =  0.56  where splitMod = 10
+			C = 10526.315798421052, kernel = linear
+			accuracy of validation =  0.5533333333333333  where splitMod = 10
+			C = 15789.473692631578, kernel = linear
+			accuracy of validation =  0.5577777777777778  where splitMod = 10
+			C = 21052.631586842104, kernel = linear
+			accuracy of validation =  0.5533333333333333  where splitMod = 10
+			C = 26315.78948105263, kernel = linear
+			accuracy of validation =  0.5488888888888889  where splitMod = 10
+			C = 31578.947375263157, kernel = linear
+			accuracy of validation =  0.5477777777777778  where splitMod = 10
+			C = 36842.105269473686, kernel = linear
+			accuracy of validation =  0.5455555555555556  where splitMod = 10
+			C = 42105.26316368421, kernel = linear
+			accuracy of validation =  0.5344444444444445  where splitMod = 10
+			C = 47368.42105789474, kernel = linear
+			accuracy of validation =  0.5333333333333333  where splitMod = 10
+			C = 52631.578952105265, kernel = linear
+			accuracy of validation =  0.5377777777777778  where splitMod = 10
+			C = 57894.73684631579, kernel = linear
+			accuracy of validation =  0.54  where splitMod = 10
+			C = 63157.89474052632, kernel = linear
+			accuracy of validation =  0.54  where splitMod = 10
+			C = 68421.05263473684, kernel = linear
+
+		RBF:
+			accuracy of validation =  0.39222222222222225  where splitMod = 10
+			C = 0.01, kernel = rbf, gamma = 3.162277660168379e-06
+			accuracy of validation =  0.39  where splitMod = 10
+			C = 0.01, kernel = rbf, gamma = 0.00042169650342858224
+			accuracy of validation =  0.39  where splitMod = 10
+			C = 0.01, kernel = rbf, gamma = 0.05623413251903491
+			accuracy of validation =  0.44222222222222224  where splitMod = 10
+			C = 0.01, kernel = rbf, gamma = 7.498942093324558
+			accuracy of validation =  0.08666666666666667  where splitMod = 10
+			C = 0.01, kernel = rbf, gamma = 1000.0
+			accuracy of validation =  0.39222222222222225  where splitMod = 10
+			C = 3.1622776601683795, kernel = rbf, gamma = 3.162277660168379e-06
+			accuracy of validation =  0.39  where splitMod = 10
+			C = 3.1622776601683795, kernel = rbf, gamma = 0.00042169650342858224
+			accuracy of validation =  0.4166666666666667  where splitMod = 10
+			C = 3.1622776601683795, kernel = rbf, gamma = 0.05623413251903491
+			accuracy of validation =  0.6466666666666666  where splitMod = 10
+			C = 3.1622776601683795, kernel = rbf, gamma = 7.498942093324558
+			accuracy of validation =  0.30444444444444446  where splitMod = 10
+			C = 3.1622776601683795, kernel = rbf, gamma = 1000.0
+			accuracy of validation =  0.39222222222222225  where splitMod = 10
+			C = 1000.0, kernel = rbf, gamma = 3.162277660168379e-06
+			accuracy of validation =  0.44  where splitMod = 10
+			C = 1000.0, kernel = rbf, gamma = 0.00042169650342858224
+			accuracy of validation =  0.5722222222222222  where splitMod = 10
+			C = 1000.0, kernel = rbf, gamma = 0.05623413251903491
+			accuracy of validation =  0.7555555555555555  where splitMod = 10
+			C = 1000.0, kernel = rbf, gamma = 7.498942093324558
+			accuracy of validation =  0.30444444444444446  where splitMod = 10
+			C = 1000.0, kernel = rbf, gamma = 1000.0
+
+			C = 1.0, kernel = rbf, gamma = scale
+			accuracy of validation =  0.39  where splitMod = 10
+			C = 1.0, kernel = rbf, gamma = auto
+			accuracy of validation =  0.25333333333333335  where splitMod = 10
+			C = 1.0, kernel = rbf, gamma = 1e-07
+			accuracy of validation =  0.28555555555555556  where splitMod = 10
+			C = 1.0, kernel = rbf, gamma = 1e-06
+			accuracy of validation =  0.38666666666666666  where splitMod = 10
+			C = 1.0, kernel = rbf, gamma = 1e-05
+			accuracy of validation =  0.3888888888888889  where splitMod = 10
+			C = 1.0, kernel = rbf, gamma = 0.0001
+			accuracy of validation =  0.39  where splitMod = 10
+			C = 1.0, kernel = rbf, gamma = 0.001
+			accuracy of validation =  0.39  where splitMod = 10
+			C = 1.0, kernel = rbf, gamma = 0.01
+			accuracy of validation =  0.41333333333333333  where splitMod = 10
+			C = 1.0, kernel = rbf, gamma = 0.1
+			accuracy of validation =  0.4677777777777778  where splitMod = 10
+			C = 1.0, kernel = rbf, gamma = 1.0
+			accuracy of validation =  0.6077777777777778  where splitMod = 10
+			C = 1.0, kernel = rbf, gamma = 10.0
+			accuracy of validation =  0.7733333333333333  where splitMod = 10
+			C = 1.0, kernel = rbf, gamma = 100.0
+			accuracy of validation =  0.27  where splitMod = 10
+			C = 1.0, kernel = rbf, gamma = 1000.0
+
+	MIN_MAX_SCALING AND VECTOR_NORMALIZATION:
+		RBF:
+			C = 1.0, kernel = rbf, gamma = scale
+			accuracy of validation =  0.39  where splitMod = 10
+			C = 1.0, kernel = rbf, gamma = auto
+			accuracy of validation =  0.25333333333333335  where splitMod = 10
+			C = 1.0, kernel = rbf, gamma = 1e-07
+			accuracy of validation =  0.28555555555555556  where splitMod = 10
+			C = 1.0, kernel = rbf, gamma = 1e-06
+			accuracy of validation =  0.38666666666666666  where splitMod = 10
+			C = 1.0, kernel = rbf, gamma = 1e-05
+			accuracy of validation =  0.3888888888888889  where splitMod = 10
+			C = 1.0, kernel = rbf, gamma = 0.0001
+			accuracy of validation =  0.39  where splitMod = 10
+			C = 1.0, kernel = rbf, gamma = 0.001
+			accuracy of validation =  0.39  where splitMod = 10
+			C = 1.0, kernel = rbf, gamma = 0.01
+			accuracy of validation =  0.41333333333333333  where splitMod = 10
+			C = 1.0, kernel = rbf, gamma = 0.1
+			accuracy of validation =  0.4677777777777778  where splitMod = 10
+			C = 1.0, kernel = rbf, gamma = 1.0
+			accuracy of validation =  0.6077777777777778  where splitMod = 10
+			C = 1.0, kernel = rbf, gamma = 10.0
+			accuracy of validation =  0.7733333333333333  where splitMod = 10
+			C = 1.0, kernel = rbf, gamma = 100.0
+			accuracy of validation =  0.27  where splitMod = 10
+			C = 1.0, kernel = rbf, gamma = 1000.0
+
+			accuracy of validation =  0.5066666666666667  where splitMod = 10
+			C = 1.0, kernel = rbf, gamma = scale
+			accuracy of validation =  0.39  where splitMod = 10
+			C = 1.0, kernel = rbf, gamma = auto
+			accuracy of validation =  0.7733333333333333  where splitMod = 10
+			C = 1.0, kernel = rbf, gamma = 100.0
+			accuracy of validation =  0.7422222222222222  where splitMod = 10
+			C = 1.0, kernel = rbf, gamma = 200.0
+			accuracy of validation =  0.6777777777777778  where splitMod = 10
+			C = 1.0, kernel = rbf, gamma = 300.0
+			accuracy of validation =  0.5944444444444444  where splitMod = 10
+			C = 1.0, kernel = rbf, gamma = 400.0
+			accuracy of validation =  0.5433333333333333  where splitMod = 10
+			C = 1.0, kernel = rbf, gamma = 500.0
+
+	STANDARD_SCALER:
+		LINEAR:
+			accuracy of validation =  0.7977777777777778  where splitMod = 10
+			C = 1.0, kernel = linear
+
+
+		RBF:
+			accuracy of validation =  0.8866666666666667  where splitMod = 10
+			C = 1.0, kernel = rbf, gamma = scale
+			accuracy of validation =  0.8866666666666667  where splitMod = 10
+			C = 1.0, kernel = rbf, gamma = auto
+			accuracy of validation =  0.5011111111111111  where splitMod = 10
+			C = 1.0, kernel = rbf, gamma = 1e-06
+			accuracy of validation =  0.5511111111111111  where splitMod = 10
+			C = 1.0, kernel = rbf, gamma = 1e-05
+			accuracy of validation =  0.6911111111111111  where splitMod = 10
+			C = 1.0, kernel = rbf, gamma = 0.0001
+			accuracy of validation =  0.8377777777777777  where splitMod = 10
+			C = 1.0, kernel = rbf, gamma = 0.001
+			accuracy of validation =  0.8966666666666666  where splitMod = 10
+			C = 1.0, kernel = rbf, gamma = 0.01
+			accuracy of validation =  0.22111111111111112  where splitMod = 10
+			C = 1.0, kernel = rbf, gamma = 0.1
+			accuracy of validation =  0.06  where splitMod = 10
+			C = 1.0, kernel = rbf, gamma = 1.0
+			accuracy of validation =  0.10444444444444445  where splitMod = 10
+			C = 1.0, kernel = rbf, gamma = 10.0
+			accuracy of validation =  0.052222222222222225  where splitMod = 10
+			C = 1.0, kernel = rbf, gamma = 100.0
+			accuracy of validation =  0.052222222222222225  where splitMod = 10
+			C = 1.0, kernel = rbf, gamma = 1000.0
+			accuracy of validation =  0.052222222222222225  where splitMod = 10
+			C = 1.0, kernel = rbf, gamma = 10000.0
+
+			accuracy of validation =  0.8866666666666667  where splitMod = 10
+			C = 1.0, kernel = rbf, gamma = scale
+			accuracy of validation =  0.8866666666666667  where splitMod = 10
+			C = 1.0, kernel = rbf, gamma = auto
+			accuracy of validation =  0.052222222222222225  where splitMod = 10
+			C = 1.0, kernel = rbf, gamma = 100.0
+			accuracy of validation =  0.052222222222222225  where splitMod = 10
+			C = 1.0, kernel = rbf, gamma = 200.0
+			accuracy of validation =  0.052222222222222225  where splitMod = 10
+			C = 1.0, kernel = rbf, gamma = 300.0
+			accuracy of validation =  0.052222222222222225  where splitMod = 10
+			C = 1.0, kernel = rbf, gamma = 400.0
+			accuracy of validation =  0.052222222222222225  where splitMod = 10
+			C = 1.0, kernel = rbf, gamma = 500.0
+
+			accuracy of validation =  0.65  where splitMod = 10
+			C = 0.01, kernel = rbf, gamma = scale
+			accuracy of validation =  0.65  where splitMod = 10
+			C = 0.01, kernel = rbf, gamma = auto
+			accuracy of validation =  0.5011111111111111  where splitMod = 10
+			C = 0.01, kernel = rbf, gamma = 1e-06
+			accuracy of validation =  0.5011111111111111  where splitMod = 10
+			C = 0.01, kernel = rbf, gamma = 1e-05
+			accuracy of validation =  0.5211111111111111  where splitMod = 10
+			C = 0.01, kernel = rbf, gamma = 0.0001
+			accuracy of validation =  0.6333333333333333  where splitMod = 10
+			C = 0.01, kernel = rbf, gamma = 0.001
+			accuracy of validation =  0.4477777777777778  where splitMod = 10
+			C = 0.01, kernel = rbf, gamma = 0.01
+			accuracy of validation =  0.07666666666666666  where splitMod = 10
+			C = 0.01, kernel = rbf, gamma = 0.1
+			accuracy of validation =  0.05444444444444444  where splitMod = 10
+			C = 0.01, kernel = rbf, gamma = 1.0
+			accuracy of validation =  0.24555555555555555  where splitMod = 10
+			C = 0.01, kernel = rbf, gamma = 10.0
+			accuracy of validation =  0.052222222222222225  where splitMod = 10
+			C = 0.01, kernel = rbf, gamma = 100.0
+			accuracy of validation =  0.052222222222222225  where splitMod = 10
+			C = 0.01, kernel = rbf, gamma = 1000.0
+			accuracy of validation =  0.052222222222222225  where splitMod = 10
+			C = 0.01, kernel = rbf, gamma = 10000.0
+			accuracy of validation =  0.94  where splitMod = 10
+			C = 10.0, kernel = rbf, gamma = scale
+			accuracy of validation =  0.94  where splitMod = 10
+			C = 10.0, kernel = rbf, gamma = auto
+			accuracy of validation =  0.5533333333333333  where splitMod = 10
+			C = 10.0, kernel = rbf, gamma = 1e-06
+			accuracy of validation =  0.6844444444444444  where splitMod = 10
+			C = 10.0, kernel = rbf, gamma = 1e-05
+			accuracy of validation =  0.7944444444444444  where splitMod = 10
+			C = 10.0, kernel = rbf, gamma = 0.0001
+			accuracy of validation =  0.9333333333333333  where splitMod = 10
+			C = 10.0, kernel = rbf, gamma = 0.001
+			accuracy of validation =  0.9166666666666666  where splitMod = 10
+			C = 10.0, kernel = rbf, gamma = 0.01
+			accuracy of validation =  0.2477777777777778  where splitMod = 10
+			C = 10.0, kernel = rbf, gamma = 0.1
+			accuracy of validation =  0.06222222222222222  where splitMod = 10
+			C = 10.0, kernel = rbf, gamma = 1.0
+			accuracy of validation =  0.10444444444444445  where splitMod = 10
+			C = 10.0, kernel = rbf, gamma = 10.0
+			accuracy of validation =  0.052222222222222225  where splitMod = 10
+			C = 10.0, kernel = rbf, gamma = 100.0
+			accuracy of validation =  0.052222222222222225  where splitMod = 10
+			C = 10.0, kernel = rbf, gamma = 1000.0
+			accuracy of validation =  0.052222222222222225  where splitMod = 10
+			C = 10.0, kernel = rbf, gamma = 10000.0
+			accuracy of validation =  0.9333333333333333  where splitMod = 10
+			C = 10000.0, kernel = rbf, gamma = scale
+			accuracy of validation =  0.9333333333333333  where splitMod = 10
+			C = 10000.0, kernel = rbf, gamma = auto
+			accuracy of validation =  0.8222222222222222  where splitMod = 10
+			C = 10000.0, kernel = rbf, gamma = 1e-06
+			accuracy of validation =  0.8533333333333334  where splitMod = 10
+			C = 10000.0, kernel = rbf, gamma = 1e-05
+			accuracy of validation =  0.9066666666666666  where splitMod = 10
+			C = 10000.0, kernel = rbf, gamma = 0.0001
+			accuracy of validation =  0.9244444444444444  where splitMod = 10
+			C = 10000.0, kernel = rbf, gamma = 0.001
+			accuracy of validation =  0.9166666666666666  where splitMod = 10
+			C = 10000.0, kernel = rbf, gamma = 0.01
+			accuracy of validation =  0.2477777777777778  where splitMod = 10
+			C = 10000.0, kernel = rbf, gamma = 0.1
+			accuracy of validation =  0.06222222222222222  where splitMod = 10
+			C = 10000.0, kernel = rbf, gamma = 1.0
+			accuracy of validation =  0.10444444444444445  where splitMod = 10
+			C = 10000.0, kernel = rbf, gamma = 10.0
+			accuracy of validation =  0.052222222222222225  where splitMod = 10
+			C = 10000.0, kernel = rbf, gamma = 100.0
+			accuracy of validation =  0.052222222222222225  where splitMod = 10
+			C = 10000.0, kernel = rbf, gamma = 1000.0
+			accuracy of validation =  0.052222222222222225  where splitMod = 10
+			C = 10000.0, kernel = rbf, gamma = 10000.0
+			accuracy of validation =  0.9333333333333333  where splitMod = 10
+			C = 10000000.0, kernel = rbf, gamma = scale
+			accuracy of validation =  0.9333333333333333  where splitMod = 10
+			C = 10000000.0, kernel = rbf, gamma = auto
+			accuracy of validation =  0.7977777777777778  where splitMod = 10
+			C = 10000000.0, kernel = rbf, gamma = 1e-06
+			accuracy of validation =  0.8444444444444444  where splitMod = 10
+			C = 10000000.0, kernel = rbf, gamma = 1e-05
+			accuracy of validation =  0.9066666666666666  where splitMod = 10
+			C = 10000000.0, kernel = rbf, gamma = 0.0001
+			accuracy of validation =  0.9244444444444444  where splitMod = 10
+			C = 10000000.0, kernel = rbf, gamma = 0.001
+			accuracy of validation =  0.9166666666666666  where splitMod = 10
+			C = 10000000.0, kernel = rbf, gamma = 0.01
+			accuracy of validation =  0.2477777777777778  where splitMod = 10
+			C = 10000000.0, kernel = rbf, gamma = 0.1
+			accuracy of validation =  0.06222222222222222  where splitMod = 10
+			C = 10000000.0, kernel = rbf, gamma = 1.0
+			accuracy of validation =  0.10444444444444445  where splitMod = 10
+			C = 10000000.0, kernel = rbf, gamma = 10.0
+			accuracy of validation =  0.052222222222222225  where splitMod = 10
+			C = 10000000.0, kernel = rbf, gamma = 100.0
+			accuracy of validation =  0.052222222222222225  where splitMod = 10
+			C = 10000000.0, kernel = rbf, gamma = 1000.0
+			accuracy of validation =  0.052222222222222225  where splitMod = 10
+			C = 10000000.0, kernel = rbf, gamma = 10000.0
+			accuracy of validation =  0.9333333333333333  where splitMod = 10
+			C = 10000000000.0, kernel = rbf, gamma = scale
+			accuracy of validation =  0.9333333333333333  where splitMod = 10
+			C = 10000000000.0, kernel = rbf, gamma = auto
+			accuracy of validation =  0.7966666666666666  where splitMod = 10
+			C = 10000000000.0, kernel = rbf, gamma = 1e-06
+			accuracy of validation =  0.8444444444444444  where splitMod = 10
+			C = 10000000000.0, kernel = rbf, gamma = 1e-05
+			accuracy of validation =  0.9066666666666666  where splitMod = 10
+			C = 10000000000.0, kernel = rbf, gamma = 0.0001
+			accuracy of validation =  0.9244444444444444  where splitMod = 10
+			C = 10000000000.0, kernel = rbf, gamma = 0.001
+			accuracy of validation =  0.9166666666666666  where splitMod = 10
+			C = 10000000000.0, kernel = rbf, gamma = 0.01
+			accuracy of validation =  0.2477777777777778  where splitMod = 10
+			C = 10000000000.0, kernel = rbf, gamma = 0.1
+			accuracy of validation =  0.06222222222222222  where splitMod = 10
+			C = 10000000000.0, kernel = rbf, gamma = 1.0
+			accuracy of validation =  0.10444444444444445  where splitMod = 10
+			C = 10000000000.0, kernel = rbf, gamma = 10.0
+			accuracy of validation =  0.052222222222222225  where splitMod = 10
+			C = 10000000000.0, kernel = rbf, gamma = 100.0
+			accuracy of validation =  0.052222222222222225  where splitMod = 10
+			C = 10000000000.0, kernel = rbf, gamma = 1000.0
+			accuracy of validation =  0.052222222222222225  where splitMod = 10
+			C = 10000000000.0, kernel = rbf, gamma = 10000.0
+
+	STANDARD_SCALER + MIN_MAX_SCALER
+		LINEAR:
+			accuracy of validation =  0.5255555555555556  where splitMod = 10
+			C = 0.001, kernel = linear
+			accuracy of validation =  0.6555555555555556  where splitMod = 10
+			C = 0.01, kernel = linear
+			accuracy of validation =  0.7722222222222223  where splitMod = 10
+			C = 0.1, kernel = linear
+			accuracy of validation =  0.8255555555555556  where splitMod = 10
+			C = 1.0, kernel = linear
+			accuracy of validation =  0.81  where splitMod = 10
+			C = 10.0, kernel = linear
+			accuracy of validation =  0.7911111111111111  where splitMod = 10
+			C = 100.0, kernel = linear
+			accuracy of validation =  0.7833333333333333  where splitMod = 10
+			C = 1000.0, kernel = linear
+			accuracy of validation =  0.7833333333333333  where splitMod = 10
+			C = 10000.0, kernel = linear
+			accuracy of validation =  0.7833333333333333  where splitMod = 10
+			C = 100000.0, kernel = linear
+
+		RBF:
+			Cs = [1.e-02 1.e+01 1.e+04 1.e+07 1.e+10]
+			Gammas = ['scale', 'auto', 1e-06, 1e-05, 0.0001, 0.001, 0.01, 0.1, 1.0, 10.0, 100.0, 1000.0, 10000.0]
+			accuracy of validation =  0.6411111111111111  where splitMod = 10
+			C = 0.01, kernel = rbf, gamma = scale
+			accuracy of validation =  0.5211111111111111  where splitMod = 10
+			C = 0.01, kernel = rbf, gamma = auto
+			accuracy of validation =  0.5144444444444445  where splitMod = 10
+			C = 0.01, kernel = rbf, gamma = 1e-06
+			accuracy of validation =  0.5144444444444445  where splitMod = 10
+			C = 0.01, kernel = rbf, gamma = 1e-05
+			accuracy of validation =  0.5144444444444445  where splitMod = 10
+			C = 0.01, kernel = rbf, gamma = 0.0001
+			accuracy of validation =  0.5222222222222223  where splitMod = 10
+			C = 0.01, kernel = rbf, gamma = 0.001
+			accuracy of validation =  0.5311111111111111  where splitMod = 10
+			C = 0.01, kernel = rbf, gamma = 0.01
+			accuracy of validation =  0.6277777777777778  where splitMod = 10
+			C = 0.01, kernel = rbf, gamma = 0.1
+			accuracy of validation =  0.3233333333333333  where splitMod = 10
+			C = 0.01, kernel = rbf, gamma = 1.0
+			accuracy of validation =  0.07111111111111111  where splitMod = 10
+			C = 0.01, kernel = rbf, gamma = 10.0
+			accuracy of validation =  0.05444444444444444  where splitMod = 10
+			C = 0.01, kernel = rbf, gamma = 100.0
+			accuracy of validation =  0.21333333333333335  where splitMod = 10
+			C = 0.01, kernel = rbf, gamma = 1000.0
+			accuracy of validation =  0.052222222222222225  where splitMod = 10
+			C = 0.01, kernel = rbf, gamma = 10000.0
+			accuracy of validation =  0.9377777777777778  where splitMod = 10
+			C = 10.0, kernel = rbf, gamma = scale
+			accuracy of validation =  0.7311111111111112  where splitMod = 10
+			C = 10.0, kernel = rbf, gamma = auto
+			accuracy of validation =  0.5144444444444445  where splitMod = 10
+			C = 10.0, kernel = rbf, gamma = 1e-06
+			accuracy of validation =  0.5144444444444445  where splitMod = 10
+			C = 10.0, kernel = rbf, gamma = 1e-05
+			accuracy of validation =  0.5666666666666667  where splitMod = 10
+			C = 10.0, kernel = rbf, gamma = 0.0001
+			accuracy of validation =  0.6933333333333334  where splitMod = 10
+			C = 10.0, kernel = rbf, gamma = 0.001
+			accuracy of validation =  0.8288888888888889  where splitMod = 10
+			C = 10.0, kernel = rbf, gamma = 0.01
+			accuracy of validation =  0.9388888888888889  where splitMod = 10
+			C = 10.0, kernel = rbf, gamma = 0.1
+			accuracy of validation =  0.8811111111111111  where splitMod = 10
+			C = 10.0, kernel = rbf, gamma = 1.0
+			accuracy of validation =  0.20777777777777778  where splitMod = 10
+			C = 10.0, kernel = rbf, gamma = 10.0
+			accuracy of validation =  0.06111111111111111  where splitMod = 10
+			C = 10.0, kernel = rbf, gamma = 100.0
+			accuracy of validation =  0.08777777777777777  where splitMod = 10
+			C = 10.0, kernel = rbf, gamma = 1000.0
+			accuracy of validation =  0.052222222222222225  where splitMod = 10
+			C = 10.0, kernel = rbf, gamma = 10000.0
+			accuracy of validation =  0.9344444444444444  where splitMod = 10
+			C = 10000.0, kernel = rbf, gamma = scale
+			accuracy of validation =  0.88  where splitMod = 10
+			C = 10000.0, kernel = rbf, gamma = auto
+			accuracy of validation =  0.6911111111111111  where splitMod = 10
+			C = 10000.0, kernel = rbf, gamma = 1e-06
+			accuracy of validation =  0.8011111111111111  where splitMod = 10
+			C = 10000.0, kernel = rbf, gamma = 1e-05
+			accuracy of validation =  0.8222222222222222  where splitMod = 10
+			C = 10000.0, kernel = rbf, gamma = 0.0001
+			accuracy of validation =  0.86  where splitMod = 10
+			C = 10000.0, kernel = rbf, gamma = 0.001
+			accuracy of validation =  0.9122222222222223  where splitMod = 10
+			C = 10000.0, kernel = rbf, gamma = 0.01
+			accuracy of validation =  0.9355555555555556  where splitMod = 10
+			C = 10000.0, kernel = rbf, gamma = 0.1
+			accuracy of validation =  0.8811111111111111  where splitMod = 10
+			C = 10000.0, kernel = rbf, gamma = 1.0
+			accuracy of validation =  0.20777777777777778  where splitMod = 10
+			C = 10000.0, kernel = rbf, gamma = 10.0
+			accuracy of validation =  0.06111111111111111  where splitMod = 10
+			C = 10000.0, kernel = rbf, gamma = 100.0
+			accuracy of validation =  0.08777777777777777  where splitMod = 10
+			C = 10000.0, kernel = rbf, gamma = 1000.0
+			accuracy of validation =  0.052222222222222225  where splitMod = 10
+			C = 10000.0, kernel = rbf, gamma = 10000.0
+			accuracy of validation =  0.9344444444444444  where splitMod = 10
+			C = 10000000.0, kernel = rbf, gamma = scale
+			accuracy of validation =  0.8766666666666667  where splitMod = 10
+			C = 10000000.0, kernel = rbf, gamma = auto
+			accuracy of validation =  0.7977777777777778  where splitMod = 10
+			C = 10000000.0, kernel = rbf, gamma = 1e-06
+			accuracy of validation =  0.7866666666666666  where splitMod = 10
+			C = 10000000.0, kernel = rbf, gamma = 1e-05
+			accuracy of validation =  0.8133333333333334  where splitMod = 10
+			C = 10000000.0, kernel = rbf, gamma = 0.0001
+			accuracy of validation =  0.8611111111111112  where splitMod = 10
+			C = 10000000.0, kernel = rbf, gamma = 0.001
+			accuracy of validation =  0.9122222222222223  where splitMod = 10
+			C = 10000000.0, kernel = rbf, gamma = 0.01
+			accuracy of validation =  0.9355555555555556  where splitMod = 10
+			C = 10000000.0, kernel = rbf, gamma = 0.1
+			accuracy of validation =  0.8811111111111111  where splitMod = 10
+			C = 10000000.0, kernel = rbf, gamma = 1.0
+			accuracy of validation =  0.20777777777777778  where splitMod = 10
+			C = 10000000.0, kernel = rbf, gamma = 10.0
+			accuracy of validation =  0.06111111111111111  where splitMod = 10
+			C = 10000000.0, kernel = rbf, gamma = 100.0
+			accuracy of validation =  0.08777777777777777  where splitMod = 10
+			C = 10000000.0, kernel = rbf, gamma = 1000.0
+			accuracy of validation =  0.052222222222222225  where splitMod = 10
+			C = 10000000.0, kernel = rbf, gamma = 10000.0
+			accuracy of validation =  0.9344444444444444  where splitMod = 10
+			C = 10000000000.0, kernel = rbf, gamma = scale
+			accuracy of validation =  0.8766666666666667  where splitMod = 10
+			C = 10000000000.0, kernel = rbf, gamma = auto
+			accuracy of validation =  0.7944444444444444  where splitMod = 10
+			C = 10000000000.0, kernel = rbf, gamma = 1e-06
+			accuracy of validation =  0.7888888888888889  where splitMod = 10
+			C = 10000000000.0, kernel = rbf, gamma = 1e-05
+			accuracy of validation =  0.8133333333333334  where splitMod = 10
+			C = 10000000000.0, kernel = rbf, gamma = 0.0001
+			accuracy of validation =  0.8611111111111112  where splitMod = 10
+			C = 10000000000.0, kernel = rbf, gamma = 0.001
+			accuracy of validation =  0.9122222222222223  where splitMod = 10
+			C = 10000000000.0, kernel = rbf, gamma = 0.01
+			accuracy of validation =  0.9355555555555556  where splitMod = 10
+			C = 10000000000.0, kernel = rbf, gamma = 0.1
+			accuracy of validation =  0.8811111111111111  where splitMod = 10
+			C = 10000000000.0, kernel = rbf, gamma = 1.0
+			accuracy of validation =  0.20777777777777778  where splitMod = 10
+			C = 10000000000.0, kernel = rbf, gamma = 10.0
+			accuracy of validation =  0.06111111111111111  where splitMod = 10
+			C = 10000000000.0, kernel = rbf, gamma = 100.0
+			accuracy of validation =  0.08777777777777777  where splitMod = 10
+			C = 10000000000.0, kernel = rbf, gamma = 1000.0
+			accuracy of validation =  0.052222222222222225  where splitMod = 10
+			C = 10000000000.0, kernel = rbf, gamma = 10000.0
