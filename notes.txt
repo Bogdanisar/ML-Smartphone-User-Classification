@@ -85,6 +85,54 @@ svm, svc
 	accuracy of validation =  0.09222222222222222  where splitNum = 405
 	C = 10000000000.0, kernel = rbf, gamma = 1000.0
 
+	accuracy of validation =  0.7388888888888889  where splitNum = 405
+	C = 0.1, kernel = rbf, gamma = scale
+	accuracy of validation =  0.48777777777777775  where splitNum = 405
+	C = 0.1, kernel = rbf, gamma = auto
+	accuracy of validation =  0.4855555555555556  where splitNum = 405
+	C = 0.1, kernel = rbf, gamma = 1e-06
+	accuracy of validation =  0.4855555555555556  where splitNum = 405
+	C = 0.1, kernel = rbf, gamma = 1e-05
+	accuracy of validation =  0.4855555555555556  where splitNum = 405
+	C = 0.1, kernel = rbf, gamma = 0.0001
+	accuracy of validation =  0.4888888888888889  where splitNum = 405
+	C = 0.1, kernel = rbf, gamma = 0.001
+	accuracy of validation =  0.5488888888888889  where splitNum = 405
+	C = 0.1, kernel = rbf, gamma = 0.01
+	accuracy of validation =  0.7333333333333333  where splitNum = 405
+	C = 0.1, kernel = rbf, gamma = 0.1
+	accuracy of validation =  0.5144444444444445  where splitNum = 405
+	C = 0.1, kernel = rbf, gamma = 1.0
+	accuracy of validation =  0.06777777777777778  where splitNum = 405
+	C = 0.1, kernel = rbf, gamma = 10.0
+	accuracy of validation =  0.051111111111111114  where splitNum = 405
+	C = 0.1, kernel = rbf, gamma = 100.0
+	accuracy of validation =  0.20333333333333334  where splitNum = 405
+	C = 0.1, kernel = rbf, gamma = 1000.0
+	accuracy of validation =  0.9355555555555556  where splitNum = 405
+	C = 10, kernel = rbf, gamma = scale
+	accuracy of validation =  0.7355555555555555  where splitNum = 405
+	C = 10, kernel = rbf, gamma = auto
+	accuracy of validation =  0.4855555555555556  where splitNum = 405
+	C = 10, kernel = rbf, gamma = 1e-06
+	accuracy of validation =  0.4855555555555556  where splitNum = 405
+	C = 10, kernel = rbf, gamma = 1e-05
+	accuracy of validation =  0.5477777777777778  where splitNum = 405
+	C = 10, kernel = rbf, gamma = 0.0001
+	accuracy of validation =  0.6866666666666666  where splitNum = 405
+	C = 10, kernel = rbf, gamma = 0.001
+	accuracy of validation =  0.8188888888888889  where splitNum = 405
+	C = 10, kernel = rbf, gamma = 0.01
+	accuracy of validation =  0.9344444444444444  where splitNum = 405
+	C = 10, kernel = rbf, gamma = 0.1
+	accuracy of validation =  0.8877777777777778  where splitNum = 405
+	C = 10, kernel = rbf, gamma = 1.0
+	accuracy of validation =  0.22555555555555556  where splitNum = 405
+	C = 10, kernel = rbf, gamma = 10.0
+	accuracy of validation =  0.06222222222222222  where splitNum = 405
+	C = 10, kernel = rbf, gamma = 100.0
+	accuracy of validation =  0.09222222222222222  where splitNum = 405
+	C = 10, kernel = rbf, gamma = 1000.0
 
 
 	rbf (wit)
